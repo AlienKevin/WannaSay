@@ -24,6 +24,7 @@ github_username:  AlienKevin
 # Build settings
 markdown: kramdown
 theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "sunrise"
 plugins:
   - jekyll-feed
