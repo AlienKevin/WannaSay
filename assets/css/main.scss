@@ -1,0 +1,18 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@font-face {
+    font-family: "Source Han Sans TW";
+    src: url("/assets/fonts/SourceHanSansTW-Normal.woff") format("woff"),
+        url("/assets/fonts/SourceHanSansTW-Normal.otf")  format("opentype");
+}
+
+@charset "utf-8";
+
+$serif: Georgia, Times, serif !default;
+$sans-serif: "Source Han Sans TW", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
