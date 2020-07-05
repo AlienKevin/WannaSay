@@ -17,8 +17,9 @@ title: WannaSay 想説
 email: kevinli020508@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I say what I wanna say here, about computer science, education, and my other hobbies.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://alienkevin.github.io/WannaSay" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/WannaSay" # the subpath of your site, e.g. /blog
+url: "https://alienkevin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+repository: "AlienKevin/WannaSay"
 github_username:  AlienKevin
 
 # Build settings
