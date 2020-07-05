@@ -28,6 +28,7 @@ remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "sunrise"
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 defaults:
   # _posts
