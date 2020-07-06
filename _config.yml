@@ -13,10 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: WannaSay 想説
+title: WannaSay
+name: &name "Kevin Li 李想" # &name is a YAML anchor which can be *referenced later
 email: kevinli020508@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I say what I wanna say here, about computer science, education, and my other hobbies.
+logo: "/assets/images/site-logo.png"
 baseurl: "/WannaSay" # the subpath of your site, e.g. /blog
 url: "https://alienkevin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository: "AlienKevin/WannaSay"
@@ -42,8 +44,6 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
-      related: true
 
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
